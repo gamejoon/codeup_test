@@ -4,7 +4,10 @@
 int main()
 {
 	int num;
-	scanf("%d", &num);
+
+	if (scanf("%d", &num) != 1) return 0;
+
 	printf("%d\n", -num);
+
 	return 0;
 }

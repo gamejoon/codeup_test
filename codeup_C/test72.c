@@ -3,7 +3,6 @@
 
 int main()
 {
-	// while, for, do-while문 사용 불가 문제
 	int num, count;
 
 	scanf("%d", &count);

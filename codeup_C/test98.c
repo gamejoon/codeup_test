@@ -6,7 +6,7 @@ int main()
 {
 	int w, h, n, l, d, x, y;
 
-	if (scanf("%d %d", &w, &h) != 2 || w < 1 || w > 100 || h < 1 || h > 100) return 0;
+	if (scanf("%d %d", &h, &w) != 2 || w < 1 || w > 100 || h < 1 || h > 100) return 0;
 
 	int** board = (int**)malloc(sizeof(int*) * h);
 	for (int i = 0; i < h; i++) board[i] = (int*)malloc(sizeof(int) * w);
@@ -17,20 +17,12 @@ int main()
 
 	for (int i = 0; i < n; i++)
 	{
-		if (scanf("%d %d %d %d", &l, &d, &x, &y) != 4 || (d != 0 && d != 1) || (d == 0 && l > w - (x - 1)) || (d == 1 && l > h - (y - 1))) return 0;
-		
+		if (scanf("%d %d %d %d", &l, &d, &y, &x) != 4 || (d != 0 && d != 1) || (d == 0 && l > w - (x - 1)) || (d == 1 && l > h - (y - 1))) return 0;
+
 		for (int j = 0; j < l; j++)
 		{
-			if (d == 0)
-			{
-				board[y - 1][x - 1 + j] = 1;
-				printf("x = %d, y = %d\n", x - 1 + j, y - 1);
-			}
-			else
-			{
-				board[y - 1 + j][x - 1] = 1;
-				printf("x = %d, y = %d\n", x - 1, y - 1 + j);
-			}
+			if (d == 0) board[y - 1][x - 1 + j] = 1;
+			else board[y - 1 + j][x - 1] = 1;
 		}
 	}
 

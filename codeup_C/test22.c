@@ -3,7 +3,7 @@
 
 int main()
 {
-	char str[51];
+	char str[2001];
 
 	scanf("%[^\n]s", str);
 

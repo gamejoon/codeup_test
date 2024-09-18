@@ -3,7 +3,7 @@
 
 int main()
 {
-	int cnt, num[23];
+	int cnt, num[10000];
 
 	if (scanf("%d", &cnt) != 1 || cnt < 0 || cnt > 10000) return 0;
 

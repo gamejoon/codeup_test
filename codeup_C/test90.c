@@ -8,7 +8,7 @@ int main()
 
 	if (scanf("%d %d %d", &a, &r, &n) != 3 || a < 0 || a > 10 || r < 0 || r > 10 || n < 0 || n > 10) return 0;
 
-	printf("%d\n", a * (int)pow(r, (n - 1)));
+	printf("%lld\n", a * (long long)pow(r, (n - 1)));
 
 	return 0;
 }

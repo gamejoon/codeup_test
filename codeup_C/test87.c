@@ -7,7 +7,7 @@ int main()
 
 	if (scanf("%d", &num) != 1 || num < 0 || num > 100000000) return 0;
 	
-	for (int i = 1; sum <= num; i++) sum += i;
+	for (int i = 0; sum < num; sum += ++i);
 
 	printf("%d\n", sum);
 
