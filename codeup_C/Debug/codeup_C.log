@@ -1,0 +1,4 @@
+﻿  test289.c
+D:\codeup_test\codeup_C\test289.c(12,18): warning C4047: '==': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+D:\codeup_test\codeup_C\test289.c(6,1): warning C4047: '초기화 중': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+  codeup_C.vcxproj -> D:\codeup_test\codeup_C\Debug\codeup_C.exe
