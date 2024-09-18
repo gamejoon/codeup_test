@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\codeup_test\\codeup_C\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDB8E41F-40FC-4543-8169-E53ED24B8053}|codeup_C.vcxproj|D:\\codeup_test\\codeup_C\\test1289.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDB8E41F-40FC-4543-8169-E53ED24B8053}|codeup_C.vcxproj|solutionrelative:test1289.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test1289.c",
+              "DocumentMoniker": "D:\\codeup_test\\codeup_C\\test1289.c",
+              "RelativeDocumentMoniker": "test1289.c",
+              "ToolTip": "D:\\codeup_test\\codeup_C\\test1289.c",
+              "RelativeToolTip": "test1289.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-18T18:12:02.408Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
