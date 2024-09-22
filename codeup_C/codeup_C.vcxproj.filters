@@ -777,5 +777,32 @@
     <ClCompile Include="test1289.c">
       <Filter>소스 파일\1200\280</Filter>
     </ClCompile>
+    <ClCompile Include="test1290.c">
+      <Filter>소스 파일\1200\290</Filter>
+    </ClCompile>
+    <ClCompile Include="test1291.c">
+      <Filter>소스 파일\1200\290</Filter>
+    </ClCompile>
+    <ClCompile Include="test1292.c">
+      <Filter>소스 파일\1200\290</Filter>
+    </ClCompile>
+    <ClCompile Include="test1293.c">
+      <Filter>소스 파일\1200\290</Filter>
+    </ClCompile>
+    <ClCompile Include="test1294.c">
+      <Filter>소스 파일\1200\290</Filter>
+    </ClCompile>
+    <ClCompile Include="test1295.c">
+      <Filter>소스 파일\1200\290</Filter>
+    </ClCompile>
+    <ClCompile Include="test1296.c">
+      <Filter>소스 파일\1200\290</Filter>
+    </ClCompile>
+    <ClCompile Include="test1297.c">
+      <Filter>소스 파일\1200\290</Filter>
+    </ClCompile>
+    <ClCompile Include="test1298.c">
+      <Filter>소스 파일\1200\290</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
