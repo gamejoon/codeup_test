@@ -14,23 +14,23 @@ int main()
 	switch (cnt)
 	{
 	case 0:
-		printf("µµ\n");
+		printf("¸ð\n");
 		break;
 		
 	case 1:
-		printf("°³\n");
+		printf("µµ\n");
 		break;
 
 	case 2:
-		printf("°É\n");
+		printf("°³\n");
 		break;
 
 	case 3:
-		printf("À·\n");
+		printf("°É\n");
 		break;
 
 	case 4:
-		printf("¸ð\n");
+		printf("À·\n");
 		break;
 	}
 

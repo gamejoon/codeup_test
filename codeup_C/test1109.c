@@ -9,7 +9,8 @@ int main()
 
 	if (scanf(" %s", name) != 1) return 0;
 	if (scanf(" %d", &age) != 1) return 0;
-	if (scanf(" %c", &department_code) != 1 || (department_code != 'A' && department_code != 'B' && department_code != 'C')) return 0;
+	//if (scanf(" %c", &department_code) != 1 || (department_code != 'A' && department_code != 'B' && department_code != 'C')) return 0;
+	scanf(" %c", &department_code);
 	if (scanf(" %f", &security_key) != 1) return 0;
 
 	printf("%s\n%d\n%c\n%g", name, age, department_code, security_key);

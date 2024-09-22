@@ -5,7 +5,7 @@ int main()
 {
 	int BMI;
 
-	if (scanf("%d", &BMI) != 1 || BMI < 1) return 0;
+	if (scanf("%d", &BMI) != 1 || BMI < 0) return 0;
 
 	printf("%s\n", BMI <= 10 ? "정상" : BMI <= 20 ? "과체중" : "비만");
 

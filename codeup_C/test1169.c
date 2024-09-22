@@ -5,9 +5,9 @@ int main()
 {
 	int age;
 
-	if (scanf("%d", &age) != 1 || age < 1) return 0;
+	if (scanf("%d", &age) != 1 || age < 1 || age > 113) return 0;
 
-	printf("%02d %d\n", 2012 - age + 1 >= 2000 ? 12 - age + 1 : 112 - age + 1, 2012 - age + 1 >= 2000 ? 3 : 1);
+	printf("%d %d\n", 2012 - age + 1 >= 2000 ? 12 - age + 1 : 112 - age + 1, 2012 - age + 1 >= 2000 ? 3 : 1);
 
 	return 0;
 }

@@ -5,7 +5,7 @@ int main()
 {
 	int day;
 
-	if (scanf("%d", &day) != 1 || day < 1) return 0;
+	if (scanf("%d", &day) != 1 || day < 0) return 0;
 
 	printf("%d\n", day * 24);
 
