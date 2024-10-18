@@ -3,16 +3,16 @@
 
 int main()
 {
-	int n, first = NULL, last = NULL, score;
+	int n, first = -1, last = -1, score;
 
 	if (scanf("%d", &n) != 1 || n < 2 || n > 100) return 0;
 	for (int i = 0; i < n; i++)
 	{
 		if (scanf("%d", &score) != 1 || score < 0 || score > 100) return 0;
 		
-		if (first == NULL) first = score;
-		else if (last == NULL && first >= score) last = score;
-		else if (last == NULL && first < score)
+		if (first == -1) first = score;
+		else if (last == -1 && first >= score) last = score;
+		else if (last == -1 && first < score)
 		{
 			last = first;
 			first = score;

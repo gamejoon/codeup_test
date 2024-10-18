@@ -13,23 +13,23 @@ int main()
 	{
 		int result = 8;
 
-		printf("%d %d", 4, result % p);
+		printf("%d %d", 4, p == 0 ? result : result % p);
 	}
 	else if (n == 0)
 	{
 		if (m < 0) m *= -1;
 
-		int result = 2 * m;
+		int result = 2 * (m + 1) * m / 2;
 
-		printf("%d %d", m + 2, result % p);
+		printf("%d %d", m + 2, p == 0 ? result : result % p);
 	}
 	else if (m == 0)
 	{
 		if (n < 0) n *= -1;
 
-		int result = 2 * n;
+		int result = 2 * n * (n + 1) / 2;
 
-		printf("%d %d", n + 2, result % p);
+		printf("%d %d", n + 2, p == 0 ? result : result % p);
 	}
 	else if ((n == 0 && (m == 1 || m == -1)) || (m == 0 && (n == 1 || n == -1))) printf("%d %d\n", 2, 2 % p);
 	else
@@ -47,7 +47,7 @@ int main()
 
 		result -= 2;
 
-		printf("%d %lld\n", m + n, result % p);
+		printf("%d %lld\n", m + n, p == 0 ? result : result % p);
 	}
 
 	return 0;

@@ -5,7 +5,8 @@ int main()
 {
 	int a, b, change_rate;
 
-	if (scanf("%d", &a) != 1 || a < 100 || a > 10000) return 0;
+	//if (scanf("%d", &a) != 1 || a < 100 || a > 10000) return 0;
+	scanf("%d", &a);
 	if (scanf("%d", &b) != 1 || b < 1 || b > 10) return 0;
 
 	float result = a;

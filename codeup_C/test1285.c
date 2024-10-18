@@ -3,13 +3,18 @@
 
 int main()
 {
-	int num, result = NULL;
+	int num, result = NULL, cnt = 0;
 	char sign;
 
 	do
 	{
 		if (scanf("%d", &num) != 1) return 0;
-		if (result == NULL) result = num;
+
+		if (cnt == 0)
+		{
+			result = num;
+			cnt++;
+		}
 		else
 		{
 			switch (sign)

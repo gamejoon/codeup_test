@@ -9,7 +9,8 @@ int main()
 
 	for (int i = a; i <= b; i++)
 	{
-		printf("%c%d", i == a ? '\0' : i % 2 == 1 ? '+' : '-', i);
+		if (i != a || i % 2 == 0) printf("%c", i % 2 == 1 ? '+' : '-');
+		printf("%d", i);
 		sum += i % 2 == 1 ? i : i * -1;
 	}
 
