@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\codeup_test\\codeup_C\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDB8E41F-40FC-4543-8169-E53ED24B8053}|codeup_C.vcxproj|D:\\codeup_test\\codeup_C\\test1228.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDB8E41F-40FC-4543-8169-E53ED24B8053}|codeup_C.vcxproj|solutionrelative:test1228.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDB8E41F-40FC-4543-8169-E53ED24B8053}|codeup_C.vcxproj|D:\\codeup_test\\codeup_C\\test1229.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDB8E41F-40FC-4543-8169-E53ED24B8053}|codeup_C.vcxproj|solutionrelative:test1229.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DDB8E41F-40FC-4543-8169-E53ED24B8053}|codeup_C.vcxproj|D:\\codeup_test\\codeup_C\\test1440.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDB8E41F-40FC-4543-8169-E53ED24B8053}|codeup_C.vcxproj|solutionrelative:test1440.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "test1228.c",
-              "DocumentMoniker": "D:\\codeup_test\\codeup_C\\test1228.c",
-              "RelativeDocumentMoniker": "test1228.c",
-              "ToolTip": "D:\\codeup_test\\codeup_C\\test1228.c*",
-              "RelativeToolTip": "test1228.c*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "test1440.c",
+              "DocumentMoniker": "D:\\codeup_test\\codeup_C\\test1440.c",
+              "RelativeDocumentMoniker": "test1440.c",
+              "ToolTip": "D:\\codeup_test\\codeup_C\\test1440.c*",
+              "RelativeToolTip": "test1440.c*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-22T14:17:30.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "test1229.c",
-              "DocumentMoniker": "D:\\codeup_test\\codeup_C\\test1229.c",
-              "RelativeDocumentMoniker": "test1229.c",
-              "ToolTip": "D:\\codeup_test\\codeup_C\\test1229.c",
-              "RelativeToolTip": "test1229.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-22T14:17:29.978Z",
+              "WhenOpened": "2024-10-14T22:59:15.201Z",
               "EditorCaption": ""
             }
           ]
