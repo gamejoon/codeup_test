@@ -900,7 +900,7 @@
     <ClCompile Include="test1373.c">
       <Filter>소스 파일\1300\370</Filter>
     </ClCompile>
-    <ClCompile Include="test1373_B.c">
+    <ClCompile Include="test1373_tmp.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="test1378.c">
@@ -977,6 +977,9 @@
     </ClCompile>
     <ClCompile Include="test1441.c">
       <Filter>소스 파일\1400\440</Filter>
+    </ClCompile>
+    <ClCompile Include="test1298_tmp.c">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
